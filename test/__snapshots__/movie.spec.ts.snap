@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movie Module (DELETE) /movie/:title 1`] = `{}`;
+
+exports[`Movie Module (GET) /movie 1`] = `
+[
+  {
+    "producers": [
+      "test",
+    ],
+    "studios": [
+      "test",
+    ],
+    "title": "test",
+    "winner": false,
+    "year": 1999,
+  },
+]
+`;
+
+exports[`Movie Module (GET) /movie/:title 1`] = `
+{
+  "producers": [
+    "test",
+  ],
+  "studios": [
+    "test",
+  ],
+  "title": "test",
+  "winner": false,
+  "year": 1999,
+}
+`;
+
+exports[`Movie Module (PATCH) /movie 1`] = `
+{
+  "producers": [
+    "test",
+  ],
+  "studios": [
+    "test",
+  ],
+  "title": "edit",
+  "winner": false,
+  "year": 1999,
+}
+`;
+
+exports[`Movie Module (POST) /movie 1`] = `
+{
+  "producers": [
+    "test",
+  ],
+  "studios": [
+    "test",
+  ],
+  "title": "test",
+  "winner": false,
+  "year": 1999,
+}
+`;
